@@ -1,0 +1,62 @@
+/* game.tsxのレイアウト */
+/* 画面の中央に表示 */
+/* ゲーム画面のスタイル */
+.game__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* ゲーム開始ボタンのスタイル */
+.game__start-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ゲーム再開ボタンのスタイル */
+.game__restart-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.game__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* ゲームのスコアのスタイル調整 */
+.game__content p {
+  margin: 0;
+  font-size: 18px;
+  color: "#28385E";
+}
+
+/* ゲームの難易度調整ボタンのスタイル調整 */
+.game__content button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.game__parameters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
